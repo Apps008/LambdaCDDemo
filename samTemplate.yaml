@@ -1,4 +1,4 @@
-AWSTemplateFormatVersion: "2010-09-09"
+AWSTemplateFormatVersion: '2010-09-09'
 Description: "CD Demo Lambda"
 Resources: 
   CDDemoLambda: 
@@ -19,5 +19,5 @@ Resources:
       Role: "arn:aws:iam::437968510040:role/cfrole"
       Runtime: python3.6
       Timeout: 900
-    Type: "AWS::Serverless::Function"
-Transform: "AWS::Serverless-2016-10-31"
+    Type: 'AWS::Serverless::Function'
+Transform: AWS::Serverless-2016-10-31
